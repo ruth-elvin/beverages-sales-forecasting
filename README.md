@@ -3,13 +3,16 @@
 
 ## 📊 Dataset Information
 
-- **Source**: Internal/company dataset (or state actual source if public)
 - **Features**:
-  - Date, Sales Volume
-  - Promotion indicators
-  - Oil price
-  - Product categories (if any)
-- **Time Range**: 2013 - 2017
+  - id: Unique identifier for each record
+  - date: Transaction date (YYYY-MM-DD)
+  - store_nbr: Store number
+  - family: Product family/category
+  - sales: Sales volume (can be zero)
+  - onpromotion: Number of items on promotion
+  - dcoilwtico: Oil price (may contain missing values)
+- **Time Range**: 2013-01-01 to 2017-08-15
+- **Rows & Columns**: 55,572 rows × 7 columns
 
 ---
 
